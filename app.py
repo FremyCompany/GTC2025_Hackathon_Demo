@@ -68,7 +68,7 @@ def process_user_input(user_input):
 
 # Modified patient selection logic
 if "patient_note" not in st.session_state:
-    st.markdown("## For which patient should I write a message?")
+    st.markdown("## For which patient should I provide support?")
     
     if 'patient_notes' not in st.session_state:
         with open('data/pmc_notes_100.json') as f:
