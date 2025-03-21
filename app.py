@@ -18,7 +18,7 @@ client = openai.OpenAI(
 )
 
 # Set up the Streamlit app
-st.title("Caregiver Support Tool")
+st.title("Caregiver Copilot")
 
 def process_user_input(user_input):
     # Add user message to history
